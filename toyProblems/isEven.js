@@ -1,6 +1,6 @@
 // 4. Check if a number is even.
 var isEven = function(n) {
-  // recursively divide number by 2
+  // recursive approach
   if (n === 0) {
     return true
   } else if (n < 0) {
